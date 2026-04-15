@@ -59,4 +59,4 @@ Virtual Machines may be necessary in the near future if:
 ![](output/sqldb-posts.png)
 7. Check the log for valid and invalid login attempts. 
 ![](output/log-in-successfully.png)
-![](output/invalid-login.png)
+![](output/invalid-login.png)# Shanawaz_Azure_CMS_Project
