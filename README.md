@@ -44,15 +44,47 @@ flowchart TD
 
 ---
 
-## Deployment Proof & Infrastructure Gallery
+## Deployment Proof & Infrastructure Evidence
 
-| Azure App Service Live Deployment | Azure Blob Storage Container |
-| :---: | :---: |
-| ![Web App Deployed](screenshots/web-app-deployed-to-azure.png) | ![Blob Container Proof](screenshots/blob-container-proof.png) |
+### 1. Azure App Service Live Deployment
+Verified production deployment of the Flask Content Management System on Azure App Service with active HTTPS endpoint.
 
-| Azure SQL Relational Query Results | Microsoft Entra ID Authentication |
-| :---: | :---: |
-| ![SQL Results](screenshots/sql-query-results.png) | ![Valid Login](screenshots/Valid_login.png) |
+![Azure App Service Live Deployment](screenshots/web-app-deployed-to-azure.png)
+
+---
+
+### 2. Azure Blob Storage Media Container
+Decoupled unstructured object storage container hosting uploaded article hero assets and images.
+
+![Azure Blob Storage Container](screenshots/blob-container-proof.png)
+
+---
+
+### 3. Azure App Service Linked to Storage
+Azure configuration showing direct service integration between the web application tier and Azure Storage Account.
+
+![Web App Connected to Storage](screenshots/web-app-connected-to-storage.png)
+
+---
+
+### 4. Azure SQL Relational Query Execution
+Direct SQL query verification demonstrating relational post metadata and user entity persistence.
+
+![Azure SQL Relational Query Results](screenshots/sql-query-results.png)
+
+---
+
+### 5. Microsoft Entra ID (Azure AD) OAuth Authentication
+Successful user authorization code flow completing login using enterprise Microsoft credentials.
+
+![Valid Login](screenshots/Valid_login.png)
+
+---
+
+### 6. Article Publishing & Content Rendering
+End-user interface displaying published article content retrieved from Azure SQL paired with hero images loaded from Blob Storage.
+
+![Article View](screenshots/article-screenshot.png)
 
 ---
 
